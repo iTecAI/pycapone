@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pycapone"
+version = "0.1.0"
+description = "Pythonic API for CapitalOne's web interface"
+authors = ["Dax Harris <matteovh@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.26.0"
+
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
